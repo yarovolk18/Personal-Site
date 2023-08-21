@@ -1,0 +1,40 @@
+nav {
+    background: rgba(0,0,0.3);
+    opacity: 0.6;
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px); 
+    align-items: center;
+}
+
+
+nav a {
+    background: rgb(12, 0, 0);
+    opacity: 1;
+    padding: 0.9rem;
+    border-radius: 1.3rem;
+    display: flex;
+    color: var(--color-light);
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background: rgba(10, 0, 0, 0.5);
+    opacity: 1;
+}
+
+nav a.active {
+    background: var(--color-bg);
+    color: var(--color-white);
+    opacity: 1;
+}
+

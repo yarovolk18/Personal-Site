@@ -4,7 +4,7 @@ import IMG1 from '../../assets/Resume.jpg'
 import IMG2 from '../../assets/bookinPortfolio.png'
 import IMG3 from '../../assets/mealerPortfolio.png'
 import IMG4 from '../../assets/battleshipPortfolio.png'
-import IMG5 from '../../assets/uOttaLogoPortfolio.jpg'
+import IMG5 from '../../assets/uOttaLogoPortfolio.png'
 import IMG6 from '../../assets/towersOfHanoiPortfolio.jpg'
 
 const data = [
@@ -13,7 +13,6 @@ const data = [
     image: IMG1,
     title: 'My Resume',
     github: 'https://github.com/yarovolk18',
-    demo: 'https://figma'
   }
   ,
   {
@@ -21,7 +20,6 @@ const data = [
     image: IMG2,
     title: 'Bookin',
     github: 'https://github.com/yarovolk18/Bookin',
-    demo: 'https://figma'
   }
   ,
   {
@@ -29,7 +27,6 @@ const data = [
     image: IMG3,
     title: 'Mealer App',
     github: 'https://github.com/yarovolk18/MealerApp',
-    demo: 'https://figma'
   }
   ,
   {
@@ -37,7 +34,6 @@ const data = [
     image: IMG4,
     title: 'Battleship',
     github: 'https://github.com/yarovolk18',
-    demo: 'https://figma'
   }
   ,
   {
@@ -45,7 +41,6 @@ const data = [
     image: IMG5,
     title: 'uOttaHack 5 Site',
     github: 'https://github.com/uOttaHack',
-    demo: 'https://uottahack.ca'
   }
   ,
   {
@@ -53,7 +48,6 @@ const data = [
     image: IMG6,
     title: 'Towers of Hanoi',
     github: 'https://github.com/yarovolk18/TowersOfHanoi-CPP',
-    demo: 'https://figma'
   }
 ]
 
@@ -79,7 +73,6 @@ const Portfolio = () => {
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn'>Github</a>
-                <a href={demo} className='btn btn-primary' target='self'>Demo</a>
               </div>
              
             </article>

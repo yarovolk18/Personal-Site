@@ -22,31 +22,23 @@ const Services = () => {
             
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Figma</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Canva</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Adobe Photoshop</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>GIMP</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>MS Paint</p>
           </li>
             
           </ul>
@@ -65,49 +57,40 @@ const Services = () => {
             
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>React.js </p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Angular.js</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Vue.js</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Bootstrap for CSS</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>DigitalOcean</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>AWS</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Jenkins</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Circle CI</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Travel CI</p>
           </li>
-          <li>
-            <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
-          </li>
-            
           </ul>
 
          {/* END OF WEB DEVELOPMENT */}
@@ -119,38 +102,25 @@ const Services = () => {
             <h3>Content Creation</h3>
           </div>
 
-         {/* WEB DEVELOPMENT */}
+         {/* CONTENT CREATION */}
           <ul className='service__list'>
             
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Instagram</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Tik Tok</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>Adobe Premiere</p>
           </li>
           <li>
             <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
+            <p>iMovie</p>
           </li>
-          <li>
-            <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
-          </li>
-          <li>
-            <BiCheck className='service__list-icon' />
-            <p>Test test test test test test test test</p>
-          </li>
-            
           </ul>
 
          {/* END OF CONTENT CREATION */}

@@ -12,7 +12,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'My Resume',
-    github: 'https://github.com/yarovolk18',
+    github: 'https://github.com/yarovolk18/resume',
   }
   ,
   {

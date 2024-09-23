@@ -1,6 +1,6 @@
 .portfolio {
     height: 10%;
-    padding-top: 3rem;
+    padding-top: 0rem;
     text-align: center;
 }
 
@@ -16,7 +16,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-    height: 18rem;
+    height: 16rem;
 }
 
 .portfolio__item:hover {
@@ -27,18 +27,24 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
-    height: 9rem;
+    height: 12rem;
 }
 
-.portfolio__item h3 {
-    margin: 1.2rem 0 2rem;
+.portfolio__item h4 {
+    margin: 1.2rem 0 0 0;
+    size: 1rem;
+    color: var(--color-text);
 }
 
 .portfolio__item-cta {
+    text-align: center;
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+
+
 
 
 /* ==================== MEDIA SCREEN (Medium Devices) ==================== */

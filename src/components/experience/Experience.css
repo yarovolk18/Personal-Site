@@ -1,6 +1,6 @@
 .experience{
     height: 10%;
-    padding-top: 3rem;
+    padding-top: 0rem;
     text-align: center;
 }
 
@@ -26,7 +26,7 @@
 
 .experience__container > div h3 {
     text-align: left;
-    font-size: 1.5vh;
+    font-size: 2.5vh;
     color: var(--color-white);
     margin-bottom: 1rem;
 }

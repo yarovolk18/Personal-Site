@@ -1,32 +1,22 @@
 header {
-    height: 10%;
-    padding-top: 2rem;
+    background-color: var(--color-primary-variant);
+    color: var(--color-bg);
+    padding: 3rem 0;
+    margin-top: -1rem;
     overflow: hidden;
 }
 
 .header__container {
     text-align: center;
-    height: 80%;
-    width: 80%;
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-
-.above__row{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-left: auto;
-    margin-right: auto;
+    width: 10%;
 }
 
 /* =================== CTA =================== */
 
 .cta {
-    margin-top: 1.5rem;
+    margin-top: -1rem;
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     justify-content: center;
 }
 
@@ -34,16 +24,11 @@ header {
 /* =================== HEADER SOCIALS =================== */
 
 .header__socials {
-    display: flex;
-    flex-direction: unset;
-    gap: 5rem;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 5rem;
-    justify-content: center;
-    width: 5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1px;
     height: 1rem;
+    
 }
 
 .github__icons {
@@ -52,28 +37,6 @@ header {
 .github__icons:hover {
     font-size: 2.5rem;
     transition: var(--transition);
-}
-.header__socials::after {
-    content: '';
-    width: 2px;
-    height: 2rem;
-    background: var(--color-primary);
-    
-}
-
-
-/* =================== ME =================== */
-
-.me {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width: auto;
-    height: 30%;
-    margin-top: 2rem;
-    border-radius: 5% 5% 5% 5%;
-    overflow: hidden;
 }
 
 /* =================== SCROLL DOWN =================== */

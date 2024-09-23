@@ -1,0 +1,56 @@
+head {
+    background-color: var(--color-primary-variant);
+    text-align: center; 
+    overflow: hidden;
+}
+
+.head_container {
+    text-align: center;
+    color: var(--color-bg);
+    height: 80%;
+    width: 80%;
+    position: relative;
+}
+
+/* =================== ME =================== */
+
+.me {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: auto;
+    height: 30%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5% 5% 5% 5%;
+    overflow: hidden;
+}
+
+/* =================== SCROLL DOWN =================== */
+
+.scroll__down {
+    position: absolute;
+    right: -5%;
+    top: 60%;
+    transform: rotate(90deg);
+    font-weight: 100px;
+    font-size: 0.9rem;
+}
+
+/* ============================ MEDIA QUERIES (Medium Devices) ============================ */
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width : var(--container-width-md);
+    }
+
+}
+
+/* ============================ MEDIA QUERIES (Small Devices) ============================ */
+
+@media screen and (max-width: 600px) {
+    .container {
+        width : var(--container-width-ms);
+    }
+}

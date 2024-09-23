@@ -1,53 +1,53 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/Resume.jpg'
-import IMG2 from '../../assets/bookinPortfolio.png'
-import IMG3 from '../../assets/mealerPortfolio.png'
-import IMG4 from '../../assets/battleshipPortfolio.png'
-import IMG5 from '../../assets/uOttaLogoPortfolio.png'
-import IMG6 from '../../assets/towersOfHanoiPortfolio.jpg'
+import IMG1 from '../../assets/uOttaLogoPortfolio.png'
+import IMG2 from '../../assets/uottahack6banner.jpg'
+import IMG3 from '../../assets/uOttaApp2024.png'
+import IMG4 from '../../assets/bookinPortfolio.png'
+import IMG5 from '../../assets/mealerPortfolio.png'
+import IMG6 from '../../assets/vwconceptart.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'My Resume',
-    github: 'https://github.com/yarovolk18/resume',
+    title: 'uOttaHack 2023',
+    github: 'https://2023.uottahack.ca',
   }
   ,
   {
     id: 2,
     image: IMG2,
-    title: 'Bookin',
-    github: 'https://github.com/yarovolk18/Bookin',
+    title: 'uOttaHack 2024',
+    github: 'https://2024.uottahack.ca',
   }
   ,
   {
     id: 3,
     image: IMG3,
-    title: 'Mealer App',
-    github: 'https://github.com/yarovolk18/MealerApp',
+    title: 'uOttaHack Registration',
+    github: 'https://github.com/uOttaHack/uOttaApp-Portal',
   }
   ,
   {
     id: 4,
     image: IMG4,
-    title: 'Battleship',
-    github: 'https://github.com/yarovolk18',
+    title: 'Bookin',
+    github: 'https://github.com/yarovolk18/Bookin',
   }
   ,
   {
     id: 5,
     image: IMG5,
-    title: 'uOttaHack 5 Site',
-    github: 'https://github.com/uOttaHack',
+    title: 'Mealer App',
+    github: 'https://github.com/yarovolk18/MealerApp',
   }
   ,
   {
     id: 6,
     image: IMG6,
-    title: 'Towers of Hanoi',
-    github: 'https://github.com/yarovolk18/TowersOfHanoi-CPP',
+    title: 'VaporWare Games (Coming Soon!)',
+    github: 'https://vapor-ware-site.vercel.app/',
   }
 ]
 
@@ -55,7 +55,6 @@ const Portfolio = () => {
   return (
     <section id = 'portfolio'>
      <div className="portfolio">
-        <h5>My Recent Work</h5>
         <h2>Portfolio</h2>
       </div>
     
@@ -70,9 +69,9 @@ const Portfolio = () => {
               <div className="portfolio__item-image">
                 <img src={image} alt="none"></img>
               </div>
-              <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className='btn'>Github</a>
+                <a href={github} className='btn-primary'>Link</a>
+                <h4>{title}</h4>
               </div>
              
             </article>

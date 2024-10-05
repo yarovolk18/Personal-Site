@@ -4,7 +4,7 @@ import {BsGithub} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 import {MdOutlineContactPage} from "react-icons/md";
 import { RiKakaoTalkLine } from "react-icons/ri";
-import CV from '../../assets/Resume - Iaroslav (Yaro) Volkov 2024.pdf'
+import CV from '../../assets/Iaroslav (Yaro) Volkov 2024.pdf'
 
 
 
